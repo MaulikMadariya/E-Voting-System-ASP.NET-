@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="amb.master.cs" Inherits="admit_side_amb" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="height: 100%; width: 99%; background-color: #CCCCCC; text-align: CENTER; " >
+    <form id="form1" runat="server" style=" height: 100%; width: 100%; ">
+    
+        <div id="div1" style="background-color: #333333; margin-bottom: 10px; height: 110px; width: 99%">
+                <h1 style="font-size: xx-large; color: #FFFFFF; padding-top: 35PX; margin-top: 0PX;">E&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp;&nbsp; V&nbsp; O&nbsp; T&nbsp; I&nbsp; N&nbsp; G&nbsp;&nbsp;&nbsp; S&nbsp; Y&nbsp; S&nbsp; T&nbsp; E&nbsp; M</h1>
+                
+        </div>
+        <div id="div2" style="background-color: #666666; padding-top: 5PX; margin-bottom: -7px; height: 25px; width: 99%; text-align: CENTER;">
+            
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    <asp:LinkButton ID="LinkButton1" runat="server" Font-Bold="True" Font-Overline="False" Font-Underline="False" ForeColor="White" OnClick="LinkButton1_Click">HOME</asp:LinkButton>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:LinkButton ID="LinkButton2" runat="server" Font-Bold="True" Font-Underline="False" ForeColor="White" OnClick="LinkButton2_Click" >MANAGE CITIZEN</asp:LinkButton>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:LinkButton ID="LinkButton3" runat="server" Font-Bold="True" Font-Underline="False" ForeColor="White" OnClick="LinkButton3_Click">MANAGE PARTY</asp:LinkButton>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <asp:LinkButton ID="LinkButton5" runat="server" Font-Bold="True" Font-Underline="False" ForeColor="White" OnClick="LinkButton5_Click">MANAGE RESULT</asp:LinkButton>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+            <asp:LinkButton ID="LinkButton4" runat="server" Font-Bold="True" Font-Underline="False" ForeColor="White" OnClick="LinkButton4_Click">LOGOUT</asp:LinkButton>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+        </div>&nbsp;
+         <div id="div3" style="background-color: #999999; margin-bottom: 10px; height: 500px; width: 99%; ">
+             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+             </div>
+             <div id="div4" style="background-color:#333333; padding-top: 8PX; height: 25px; width: 99%; color: #FFFFFF;">
+
+                 Terms of Service | Privacy Policy | Sitemap | © 2021 E-Voting System Inc. All Rights Reserved.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 Developed By Bina , Riya , Janki .
+                 </div>
+    </form>
+</body>
+</html>
